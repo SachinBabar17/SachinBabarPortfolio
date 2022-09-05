@@ -1,0 +1,232 @@
+
+/* typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+/* link for stylish social media apps links */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+
+:root{
+    --primary-color:
+    #7C3AED;
+    --dark-grey:#6B7280;
+    --off-white:
+    #D1D5DB;
+} 
+
+.container{
+    /* padding-left: 1rem; 
+    padding-right: 1rem; */
+    padding: 0rem 1rem; 
+    /* padding top/bottom & right left */
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* link */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+}
+
+.link-primary{
+    background-color: var( --primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var( --primary-color);
+    border: 1px solid var( --primary-color);
+    border-radius: 0.5rem;
+}
+
+.link-google{
+    background-color: var( --primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-non-bullet{
+    list-style:none ;
+}
+
+.link-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+
+
+/* navBar */
+
+.navigation{
+    background-color: var( --primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+
+}
+
+.navigation .link{
+    color: white;
+
+}
+
+.navigation .nav-pill {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.navigation .hover:hover{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+
+
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.hero .hero-heading{
+    color: var(--dark-grey);
+    font-weight: bold;
+    padding: 2rem;
+
+    text-align: center;
+
+    /* max-width: 350px;
+    margin: auto; */
+}
+
+.heading-inverted{
+    color: var(--primary-color);
+}
+
+
+/* section */
+
+.section{
+    padding: 2rem;
+
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var( --primary-color);
+    text-align: center;
+    color: white;
+    padding: 2rem 1rem;
+    border-top-right-radius: 2rem;
+    
+}
+
+
+.footer .link{
+    color: white;
+}
+
+
+
+.footer ul{
+    padding-inline-start: 0px;
+    
+}
+
+
+
+
+
+
+/* social media app */
+.social-media  a i{
+    height: 80px;
+    width: 80px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    /*box-shadow: it works onlly if backround color is white */
+
+}
+.fa-linkedin{
+    color: #0077B5 ;
+}
+.fa-github{
+    color: #6e5494 ;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+/* Hover property aplying */
+
+a:hover i{
+    font-size: 40px;
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+
+}
+
+
+
+
+/* 2nd footer */
+.second-footer{
+    margin: 100px 0px;
+    background-color: white;
+    border: 5px solid var( --primary-color);
+}
+
+.second-footer-header{
+    font-size: 30px;
+    font-weight: bolder;
+    color: var( --primary-color);
+
+}

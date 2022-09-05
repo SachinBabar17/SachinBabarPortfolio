@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library </title>
+
+    <link rel="stylesheet" href="comp.css">
+</head>
+<body>
+    <h1> Sachin's Component library</h1>
+    <p>I am attending the Web Development and I want make library which would make all my projects look good and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>H1 is the biggest heading</h1>
+    <h2>H2 is the biggest heading</h2>
+    <p>Normal text look like Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quasi! Vel facere saepe, molestiae illo velit sit odit pariatur eum consequuntur nostrum corporis? Doloribus, tenetur! Impedit optio suscipit sint doloribus!</p>
+
+    <p>This paragraph has 
+    <strong>Bold </strong>text </p>
+     
+    <small>Relatively small element. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis numquam accusantium dolore facilis iure, perferendis in ad consequuntur eveniet!</small>
+        
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid cotainer</h3>
+    <div class="container">This is fluid container. It will go till the end page.</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is fluid container. It will go till the specifid width. </div>
+
+    <hr>
+
+
+
+    <h2>@links</h2>
+     <!-- a tag is inline elements -->
+     
+     <a class="link link-primary" href="/">Primary link</a>
+     
+     <a class="link link-secondary" href="/">Secondary link</a>
+     
+     <a class="link link-google" href="http://google.com" >Google</a>
+
+
+
+
+
+    <hr>
+
+
+
+    <!-- lists -->
+    <h2>@lists</h2>
+
+    <h3>unodered list</h3>
+    <p>This list not have Bullet</p>
+    <ul class="link-non-bullet" >
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <h3>unodered inline list</h3>
+    
+    <ul class="link-non-bullet" >
+        <li class="link-item-inline" >item1</li>
+        <li class="link-item-inline" >item2</li>
+        <li class="link-item-inline" >item3</li>
+    </ul>
+
+
+    <h3>odered list</h3>
+    <ol>
+        <li>itemOne</li>
+        <li>itemTwo</li>
+        <li>itemThree</li>
+    </ol>
+
+    <h3>reverse odered list</h3>
+    <ol reversed>
+        <li>itemOne</li>
+        <li>itemTwo</li>
+        <li>itemThree</li>
+    </ol>
+
+    <hr>
+    
+
+
+    <h2>@nav</h2>
+ 
+    <nav class="navigation container" >
+        <div class="nav-brand">iAmDeveloper</div>
+        <ul class="link-non-bullet nav-pill">
+            <li class="link-item-inline" >
+                <a  class="link link-active hover" href="">Home</a>
+            </li>
+            <li class="link-item-inline" >
+                <a class="link hover" href="">Product</a>
+            </li>
+            <li class="link-item-inline" >
+                <a class="link hover" href="">Blog</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+
+
+    <hr>
+
+
+
+    <h2>@Header</h2>
+
+    <header class="hero"  >
+
+        <img  class="hero-img" src="images\Hero.svg" alt="Background image">
+
+        <h1 class="hero-heading" >iAm A  
+            <span class="heading-inverted" >Web developer.    
+            </span> 
+        </h1>
+        <!-- <h1 class="hero-heading" >iAm A  <span style="color: var(--primary-color);">Web developer</span>  -->
+        
+      
+        <!-- span is inline elements -->
+
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <section class="section " >
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white backround. [Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum natus labore ducimus atque magni nam, optio incidunt voluptas error? Voluptas id hic, numquam corrupti ut quam a nostrum provident vitae. ]</p>
+        </div>
+    </section>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray  backround. [Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit soluta ab asperiores iusto porro amet, facilis, delectus modi iste voluptatum sapiente excepturi, quam quis maiores. Enim dignissimos ipsa labore. ]</p>
+        </div>    
+    </section>
+
+    <section class="section " >
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white backround. [Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum natus labore ducimus atque magni nam, optio incidunt voluptas error? Voluptas id hic, numquam corrupti ut quam a nostrum provident vitae. ]</p>
+        </div>
+    </section>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray  backround. [Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit soluta ab asperiores iusto porro amet, facilis, delectus modi iste voluptatum sapiente excepturi, quam quis maiores. Enim dignissimos ipsa labore. ]</p>
+        </div>    
+    </section>
+
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer" >
+        <div class="footer-header" >Some small headsind iside the footer</div>
+        <ul class="social-links link-non-bullet" >
+            
+            <li class="link-item-inline">
+                <a class="link" href="/">
+                    SocialOne
+                </a>
+            </li>
+
+            <li class="link-item-inline">
+                <a class="link" href="/">
+                    SocialTwo
+                </a>
+            </li>
+
+            <li class="link-item-inline">
+                <a class="link" href="/">
+                    SocialThree
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+
+
+
+    <!-- stylish footer  2nd footer-->
+        <!-- footer -->
+        <footer class="footer second-footer" >
+            <div class="footer-header second-footer-header" >
+                Contacts
+            </div>
+    
+    
+            <ul class="social-links link-non-bullet social-media" >
+                
+                <li class="link-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/sachin-babar-a0562a1a3" target="_blank">
+                        <i class="fa fa-2x fa-linkedin" ></i>
+                        
+                    </a>
+                </li>
+    
+                <li class="link-item-inline">
+                    <a class="link" href="https://github.com/SachinBabar17"target="_blank">
+                        <i class="fa fa-2x fa-github" ></i>
+                        
+                    </a>
+                </li>
+    
+                <li class="link-item-inline">
+                    <a class="link" href="https://twitter.com/sachin_babar_"target="_blank" >
+                        <i class="fa fa-2x fa-twitter" ></i>
+                       
+                    </a>
+                </li>
+                
+            </ul>
+    
+        </footer>
+
+
+
+
+
+    <!-- <div style="height: 30vh;">
+    </div> -->
+
+
+    
+</body>
+</html>

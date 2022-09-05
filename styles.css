@@ -1,0 +1,295 @@
+
+/* typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* link for stylish social media apps links */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+/* css fixer */
+/* * { border: 1px solid red; } */
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    height: 100%;
+   
+    
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+:root{
+    /* --primary-color:#0d3344; */
+    --primary-color:#00629b;
+    /* --primary-color:#052634; */
+    /* --primary-color:#7C3AED; */
+    --footer-color:#0d3344;
+    --secondary-color: #EDE9FE; 
+    --dark-grey:#6B7280;
+    --off-white: #D1D5DB;
+    --hover-color: #7E22CE;
+} 
+
+.container{
+    /* padding-left: 1rem; 
+    padding-right: 1rem; */
+    padding: 2rem 1rem; 
+    /* padding top/bottom & right left */
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* link */
+
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+}
+
+.link-primary{
+    background-color: var( --primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 1rem 1rem 1rem 0rem;
+    display: block;
+    max-width: 140px;
+}
+
+.link-secondary{
+    color: var( --primary-color);
+    border: 1px solid var( --primary-color);
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    display: block;
+    max-width: 140px;
+}
+
+.link-google{
+    background-color: var( --primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+/* list is correct not link & link is used in html file */
+.link-non-bullet{
+    list-style:none ;
+}
+
+.link-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/* lists */
+.list-non-bullet{
+    list-style:none ;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+
+/* navBar */
+
+.navigation{
+    background-color: var( --primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    /* position: fixed; */
+}
+
+.navigation .nav-brand{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0.75rem;
+    color:  rgb(0, 240, 255);
+}
+
+.navigation .link{
+    color: white;
+
+}
+
+.navigation .nav-pill {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.navigation .hover:hover{
+    border: 1px solid   rgb(0, 240, 255);
+    border-radius: 0.5rem;
+    /* background-color:  rgb(0, 240, 255); */
+    /* color: var( --primary-color); */
+}
+
+
+
+
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    padding-top: 5rem;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero h2{
+    text-align: center;
+}
+
+.hero .hero-heading{
+    color: var(--dark-grey);
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+
+    /* max-width: 350px;
+    margin: auto; */
+}
+
+.heading-inverted{
+    color: var(--primary-color);
+
+
+}
+
+
+
+
+/* section */
+
+.section{
+    padding: 2rem;
+    display: block;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: var( --primary-color);
+    /* background-color: var( --footer-color); */
+    text-align: center;
+    color: white;
+    
+    padding: 2rem 1rem;
+    border-top-right-radius: 2rem;
+
+    
+
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    */
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+.footer .link{
+    font-weight: bold;
+}
+
+
+
+/* social media app */
+.social-media  a i{
+    box-sizing: border-box;
+    height: 80px;
+    width: 80px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+  
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    /*box-shadow: it works onlly if backround color is white */
+
+}
+.fa-linkedin{
+    color: #0077B5 ;
+}
+.fa-github{
+    color: #6e5494 ;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+/* Hover property aplying */
+
+a i:hover{
+    font-size: 50px;
+   
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+
+}
+
+
+
+
+
+
+
+/* project-list */
+
+.showcase-list {
+    padding: 2rem ;
+    /* background-color: var(--off-white); */
+}
+
+
+.showcase-list-ow{
+    padding: 2rem ;
+    background-color: var(--off-white);
+}
+
