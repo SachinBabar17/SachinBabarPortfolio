@@ -208,6 +208,24 @@ hr{
 
 
 /* footer */
+
+
+/* 1,Footerhome */
+.homefooter{
+    background-color: var( --primary-color);
+    /* background-color: var( --footer-color); */
+    text-align: center;
+    color: white;
+    
+    padding: 2rem 1rem;
+    border-top-right-radius: 2rem;
+
+    margin-top: 50px;
+
+    
+}
+
+/* 2 & 3 Footer of project and blogs */
 .footer{
     background-color: var( --primary-color);
     /* background-color: var( --footer-color); */
@@ -217,7 +235,7 @@ hr{
     padding: 2rem 1rem;
     border-top-right-radius: 2rem;
 
-    
+    /* margin-top: 100px; */
 
     /* position: fixed;
     left: 0;
@@ -284,6 +302,13 @@ a i:hover{
 
 .showcase-list {
     padding: 2rem ;
+
+    
+    /* list baorde */
+    border: 1px solid   rgb(9, 10, 10);
+    /* border-radius: 0.5rem; */
+    margin: 20px;
+  
     /* background-color: var(--off-white); */
 }
 
@@ -291,5 +316,11 @@ a i:hover{
 .showcase-list-ow{
     padding: 2rem ;
     background-color: var(--off-white);
+
+
+    /* list baorde */
+    border: 1px solid   rgb(9, 10, 10);
+    /* border-radius: 0.5rem; */
+    margin: 20px;
 }
 
