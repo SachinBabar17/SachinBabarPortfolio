@@ -22,6 +22,11 @@ body{
     
 }
 
+.fevicon{
+    border-radius: 100px;
+
+}
+
 hr{
     margin: 2rem 0rem;
 }
@@ -123,11 +128,25 @@ hr{
     /* position: fixed; */
 }
 
-.navigation .nav-brand{
-    font-size: 30px;
+.navigation .nav-brand {
+
+
+
+
+    /* font-size: 30px; */
     font-weight: bold;
     padding: 0.75rem;
-    color:  rgb(0, 240, 255);
+    /* color:  rgb(0, 240, 255); */
+}
+
+
+.title{
+    font-size: 30px;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    letter-spacing: 3px;
+  
 }
 
 .navigation .link{
@@ -246,7 +265,7 @@ hr{
 
 .footer-header{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .footer ul {
@@ -263,12 +282,13 @@ hr{
 /* social media app */
 .social-media  a i{
     box-sizing: border-box;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     background-color: #f5f6fa;
     border-radius: 50px;
     text-align: center;
-    line-height: 80px;
+    line-height: 50px;
+    
   
     /* box-shadow: 1px 4px 2px 2px #dcdde1; */
     /*box-shadow: it works onlly if backround color is white */
@@ -277,16 +297,28 @@ hr{
 .fa-linkedin{
     color: #0077B5 ;
 }
+
+
+
+
 .fa-github{
     color: #6e5494 ;
 }
 .fa-twitter{
     color: #1da1f2;
 }
+
+
 /* Hover property aplying */
 
 a i:hover{
-    font-size: 50px;
+    font-size: 30px;
+    color: var(--primary-color);
+
+    /* background-color:var(--off-white); */
+    /* color:  rgb(0, 240, 255); */
+    /* border-color: rgb(0, 240, 255); */
+    /* position: relative ; */
    
     /* box-shadow: 1px 4px 2px 2px #dcdde1; */
 
